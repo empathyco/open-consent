@@ -1,0 +1,23 @@
+.oi-layout {
+  max-width: rem(1440px);
+  padding: 0 rem(150px);
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+a {
+  color: $black;
+}
+
+@media screen and (max-width: $breakpoint__small-desktop--max) {
+  .oi-layout {
+    padding: 0 rem(60px);
+  }
+}
+
+
+@media screen and (max-width: $breakpoint__mobile--max) {
+  .oi-layout {
+    padding: 0 rem(15px);
+  }
+}

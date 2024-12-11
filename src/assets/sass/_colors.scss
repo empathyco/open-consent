@@ -1,0 +1,47 @@
+
+//neutral-colors
+$color--white: #FFF;
+$color--black: #000;
+$color--transparent: transparent;
+
+//dark-colors
+$color--dark-grey-blue: #243D48;
+$color--dark-yellow: #EDBF3B;
+$color--dark-blue: #0086B2;
+$color--dark-pink: #D44A6F;
+
+//light-colors
+$color--light-green: #80C0A1;
+$color--sky-green: #AFE2AF;
+$color--light-gray: #F5F6F7;
+$color--light-blue: #B3E2F1;
+$color--light-yellow: #FFEFCE;
+:root,
+:host {
+    --color--white: #{$color--white};
+    --color--black: #{$color--black};
+    --color--transparent: #{$color--transparent};
+    --color--dark-grey-blue: #{$color--dark-grey-blue};
+    --color--dark-yellow: #{$color--dark-yellow};
+    --color--dark-blue: #{$color--dark-blue};
+    --color--dark-pink: #{$color--dark-pink};
+    --color--light-green: #{$color--light-green};
+    --color--sky-green: #{$color--sky-green};
+    --color--light-gray: #{$color--light-gray};
+    --color--light-blue: #{$color--light-blue};
+    --color--light-yellow: #{$color--light-yellow};
+    
+    --background-color-card: #{$color--light-gray};
+    --hover-color-card: #{$color--dark-yellow};
+    --background-color-button: #{$color--white};
+    --text-color-button:#{$color--black};
+    --hover-color-button: #{$color--white};
+    --white--theme: #{$color--white};
+    --black--theme: #{$color--black};
+    --red--theme: #{$color--dark-pink};
+    --blue--theme: #{$color--dark-blue};
+    --yellow--theme: #{$color--dark-yellow};
+    --green--theme: #{$color--light-green};
+    --link-color:#{$color--dark-yellow};
+}
+

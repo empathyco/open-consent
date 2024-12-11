@@ -1,0 +1,54 @@
+@import 'functions';
+
+$font-size--tiny: 10px;
+$font-size--extra-small: 12px;
+$font-size--small: 14px;
+$font-size--regular: 16px;
+$font-size--large: 18px;
+$font-size--extra-large: 24px;
+$font-size--huge: 32px;
+$font-size--extra-huge: 48px;
+
+:root,
+:host {
+    --font-size--tiny: #{rem($font-size--tiny)};
+    --font-size--extra-small: #{rem($font-size--extra-small)};
+    --font-size--small: #{rem($font-size--small)};
+    --font-size--regular: #{rem($font-size--regular)};
+    --font-size--large: #{rem($font-size--large)};
+    --font-size--extra-large: #{rem($font-size--extra-large)};
+    --font-size--huge: #{rem($font-size--huge)};
+    --font-size--extra-huge: #{rem($font-size--extra-huge)};
+
+    --font-family--inter-light: 'Inter-Light', sans-serif;
+    --font-family--inter-semibold: 'Inter-Semibold', sans-serif;
+
+    --font-family--montserrat-light: 'Montserrat-Light', sans-serif;
+    --font-family--montserrat-semibold: 'Montserrat-Semibold', sans-serif;
+
+    --font-family--poppins-light: 'Poppins-Light', sans-serif;
+    --font-family--poppins-semibold: 'Poppins-Semibold', sans-serif;
+    --font-family--poppins-bold: 'Poppins-Bold', sans-serif;
+
+    --font-family--arvo-regular: 'Arvo-Regular', sans-serif;
+    --font-family--arvo-bold: 'Arvo-Bold', sans-serif;
+
+    --font-size--biggest: #{rem(60px)};
+    --font-size--bigger: #{rem(55px)};
+    --font-size--big: #{rem(50px)};
+    --font-size--medium-biggest: #{rem(40px)};
+    --font-size--medium-bigger: #{rem(28px)};
+    --font-size--medium-big: #{rem(22px)};
+    --font-size--medium: #{rem(20px)};
+    --font-size--medium-small: #{rem(18px)};
+    --font-size--smaller: #{rem(14px)};
+
+    --font-weight--boldest: 900;
+    --font-weight--bolder: 800;
+    --font-weight--bold: 700;
+    --font-weight--medium: 600;
+    --font-weight--medium-thin: 500;
+    --font-weight--thin: 400;
+
+    --typography: 'Inter-Light', sans-serif;
+}

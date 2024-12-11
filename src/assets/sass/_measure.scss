@@ -1,0 +1,35 @@
+/* Measures */
+@import 'functions';
+
+$xxxs-space: 1px;
+$xxs-space: 5px;
+$xxs-8-space: 8px;
+$xs-space: 10px;
+$s-space: 12px;
+$s-14-space: 14px;
+$s-15-space: 15px;
+$sm-space: 16px;
+$m-space: 20px;
+$x-space: 24px;
+$xl-space: 32px;
+$xl-36-space: 36px;
+$xxl-space: 48px;
+$xxxl-space: 64px;
+
+:root,
+:host {
+  --xxxs-space: #{rem($xxxs-space)};
+  --xxs-space: #{rem($xxs-space)};
+  --xxs-8-space: #{rem($xxs-8-space)};
+  --xs-space: #{rem($xs-space)};
+  --s-space: #{rem($s-space)};
+  --s-14-space: #{rem($s-14-space)};
+  --s-15-space: #{rem($s-15-space)};
+  --sm-space: #{rem($sm-space)};
+  --m-space: #{rem($m-space)};
+  --x-space: #{rem($x-space)};
+  --xl-space: #{rem($xl-space)};
+  --xl-36-space: #{rem($xl-36-space)};
+  --xxl-space: #{rem($xxl-space)};
+  --xxxl-space: #{rem($xxxl-space)};
+}
